@@ -1,10 +1,5 @@
 import {testeZahl, sichtbar} from './utility.js';
 
-// @ts-ignore
-window.mischMich = misch_mich;   // jetzt auch in html sichtbar
-// @ts-ignore
-window.mischmich_rechnen = mischmich_rechnen;
-
 
 export function misch_mich() {
     console.log("in mischmich");
@@ -13,7 +8,7 @@ export function misch_mich() {
 }
 
 
-function mischmich_rechnen() {
+export function mischmich_rechnen() {
     let x, y, alpha;
 
     let input = document.getElementById('y') as HTMLInputElement | null;
@@ -35,3 +30,9 @@ function mischmich_rechnen() {
 
 }
 
+
+
+// @ts-ignore
+window.mischMich = misch_mich;   // jetzt auch in html sichtbar
+// @ts-ignore
+window.mischmich_rechnen = mischmich_rechnen;

@@ -1,6 +1,9 @@
 import './kdTabelle.js'
+import './mischmich'
+
 import {sichtbar} from './utility.js'
 import './base_tabelle.js'
+
 
 //import {kdtab} from './kdtab.js';
 
