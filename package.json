@@ -1,0 +1,23 @@
+{
+  "name": "mischmich",
+  "version": "1.0.0",
+  "description": "Mischungsentwurf",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "@types/d3": "^7.4.0",
+    "d3": "^7.4.4",
+    "npm": "^9.2.0",
+    "parcel": "^2.6.2"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.2",
+    "@parcel/transformer-webmanifest": "^2.6.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "background_color": "blue",
+  "description": "Der Mischungsentwurf für den Profi",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/loeffel_glas.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Mischungsentwurf",
+  "short_name": "MischMich",
+  "start_url": "/?utm_source=homescreen"
+}
