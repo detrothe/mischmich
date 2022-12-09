@@ -3,7 +3,7 @@ import {sichtbar} from './utility.js'
 import './base_tabelle.js'
 
 //import {kdtab} from './kdtab.js';
-//import {testeZahl, sichtbar} from "./utility.js";
+
 
 import DetectOS from './detectos.js'
 import {init_contextmenu} from './contextMenu.js';
